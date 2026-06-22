@@ -16,7 +16,7 @@ import anantPhoto from "@/assets/anant.jpeg";
 
 export const Route = createFileRoute("/_authenticated/founder")({
   ssr: false,
-  head: () => ({ meta: [{ title: " - SkillNests" }] }),
+  head: () => ({ meta: [{ title: "SkillNests" }] }),
   component: FounderPage,
 });
 

@@ -9,7 +9,7 @@ import { toast } from "sonner";
 
 export const Route = createFileRoute("/_authenticated/schedule")({
   ssr: false,
-  head: () => ({ meta: [{ title: " - SkillNests" }] }),
+  head: () => ({ meta: [{ title: "SkillNests" }] }),
   component: SchedulePage,
 });
 

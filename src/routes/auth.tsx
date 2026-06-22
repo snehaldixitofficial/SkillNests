@@ -7,7 +7,7 @@ import { toast } from "sonner";
 
 export const Route = createFileRoute("/auth")({
   ssr: false,
-  head: () => ({ meta: [{ title: " - SkillNests" }] }),
+  head: () => ({ meta: [{ title: "SkillNests" }] }),
   component: AuthPage,
 });
 

@@ -3,7 +3,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 export const Route = createFileRoute("/refund")({
   head: () => ({
     meta: [
-      { title: " - SkillNests" },
+      { title: "SkillNests" },
       { name: "description", content: "Refund and Cancellation Policy for skillnests.in" },
     ],
   }),
